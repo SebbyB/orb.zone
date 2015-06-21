@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+}
+.oz-day-list {
+	list-style-type: none;
+}
+.oz-hour-row {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	clear: left;
+}
+.oz-hour-row li {
+	float: left;
+	border: red 1px dotted;
+	display: block;
+	width: 2em;
+}
+.oz-hour-row li.active{
+	background-color: red;
+}
